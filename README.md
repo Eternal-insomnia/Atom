@@ -1,6 +1,9 @@
 # Atom
 Created as part of the hackathon "Окружной хакатон СЗФО Россия - страна возможностей 2024"
 
+# Screenshots
+![картинка 1](./screenshots/main_menu_1.png)
+
 # Spring Boot Application Documentation
 
 ## Overview
@@ -144,6 +147,3 @@ displays it.
   - `regulations`: Array of regulation objects, Each object has:
     - `name`: Name of the regulation.
     - `comment`: Comment associated with the regulation.
-
-# Screenshots
-![картинка 1](./screenshots/main_menu_1.png)
