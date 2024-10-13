@@ -1,0 +1,34 @@
+.container {
+    margin-top: 100px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 20px 40px;
+}
+
+.fileSection {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+.fileName {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.regulationItem {
+    margin-bottom: 20px;
+}
+
+.regulationName {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.comment {
+    font-size: 14px;
+    margin-left: 10px;
+    white-space: pre-wrap;
+}
