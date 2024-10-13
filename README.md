@@ -1,6 +1,8 @@
 # Atom
 Created as part of the hackathon "Окружной хакатон СЗФО Россия - страна возможностей 2024"
 
+[Наше решение](https://valera.hack-szfo-2024.gros.pro/)
+
 # Screenshots
 ![картинка 1](./screenshots/main_menu_1.png)
 
