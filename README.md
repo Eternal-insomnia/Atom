@@ -144,3 +144,6 @@ displays it.
   - `regulations`: Array of regulation objects, Each object has:
     - `name`: Name of the regulation.
     - `comment`: Comment associated with the regulation.
+
+# Screenshots
+![картинка 1](./screenshots/main_menu_1.png)
