@@ -1,0 +1,9 @@
+ru.bonch.szfo2024
+ru.bonch.szfo2024.config
+ru.bonch.szfo2024.controller
+ru.bonch.szfo2024.dto
+ru.bonch.szfo2024.dto.response
+ru.bonch.szfo2024.error
+ru.bonch.szfo2024.error.exception.common
+ru.bonch.szfo2024.service
+ru.bonch.szfo2024.service.files
