@@ -96,51 +96,51 @@ This service is responsible for reading and processing DOCX files containing Use
 
 ### Overview
 
-*DocumentVerification* home page component. It integrates two child components: *FileUpload* for
-uploading and displaying files and *CheckResult* for displaying the check results. It manages the
+`DocumentVerification` home page component. It integrates two child components: `FileUpload` for
+uploading and displaying files and `CheckResult` for displaying the check results. It manages the
 state to hold the check result.
 
 ### State
 
-- *checkResult*: Array that stores the check result of files.
+- `checkResult`: Array that stores the check result of files.
 
 ## FileUpload Component
 
 ### Overview
 
-*FileUpload* component handles file uploading and displaying for two types of files: use case files
+`FileUpload` component handles file uploading and displaying for two types of files: use case files
 and regulation files. It allows users to select files from their system, remove them from the list, and
 submit them to a server for checking.
 
 ### Props
 
-- *setCheckResult*: A function to update check result in the parent component.
+- `setCheckResult`: A function to update check result in the parent component.
 
 ### State
 
-- *useCaseFiles*: Array of selected use case files.
-- *regulationFiles*: Array of selected regulation files.
-- *loading*: A boolean to indicate if the file checking is in progress.
+- `useCaseFiles`: Array of selected use case files.
+- `regulationFiles`: Array of selected regulation files.
+- `loading`: A boolean to indicate if the file checking is in progress.
 
 ### Functions
 
-- *handleUseCaseFileChange*: Handles addition of use case files to the useCaseFiles state.
-- *handleRegulationFileChange*: Handles addition of regulation files to the regulationFiles state.
-- *handleSubmit*: Sends the selected files to the server for checking using a POST request.
-- *handleDeleteUseCaseFile*: Removes use case file from the list.
-- *handleDeleteRegulationFile*: Removes regulation file from the list.
+- `handleUseCaseFileChange`: Handles addition of use case files to the useCaseFiles state.
+- `handleRegulationFileChange`: Handles addition of regulation files to the regulationFiles state.
+- `handleSubmit`: Sends the selected files to the server for checking using a POST request.
+- `handleDeleteUseCaseFile`: Removes use case file from the list.
+- `handleDeleteRegulationFile`: Removes regulation file from the list.
 
 ## CheckResult Component
 
 ### Overview
 
-*CheckResult* component displays the check result. It gets comments on each use case file and
+`CheckResult` component displays the check result. It gets comments on each use case file and
 displays it.
 
 ### Props
 
-- *checkResult*: Array containing check result. Each item has:
-  - *fileName*: Name of the file.
-  - *regulations*: Array of regulation objects, Each object has:
-    - *name*: Name of the regulation.
-    - *comment*: Comment associated with the regulation.
+- `checkResult`: Array containing check result. Each item has:
+  - `fileName`: Name of the file.
+  - `regulations`: Array of regulation objects, Each object has:
+    - `name`: Name of the regulation.
+    - `comment`: Comment associated with the regulation.
